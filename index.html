@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>A Picture Of Nectar</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>A Picture Of Nectar</h1>
+	</div>
+	<div class="Directions">
+		<h2>Here's the deal</h2>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+			<li>Listed below are four Phish references</li>
+			<ul>
+				<li id="convector">A Cushion Convector</li>
+				<li id="collector">A Hormone Collector</li>
+				<li id="ribbon">A Ribbon Reflector</li>
+				<li id="nectar">A Picture of Nectar</li>
+			</ul>
+			<li>By clicking on a pictures, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h3>Number To Get:
+			<span id= "randomNumber"></span>
+		</h3>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="assets/images/convector.jpeg" class=necImage id="one" alt="A Cushion Convector">
+		<img src="assets/images/collector.jpeg" class=necImage id="two" alt="A Hormone Collector">
+		<img src="assets/images/ribbon.jpeg" class=necImage id= "three" alt="A Ribbon Reflector">
+		<img src="assets/images/nectar.jpeg" class=necImage id= "four" alt="A Picture Of Nectar">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+</body>
+
+
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+</html>
